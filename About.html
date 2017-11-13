@@ -5,26 +5,40 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap-social.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      
   </head>
-  <body>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <body class="aboutBack">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light navB">
            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMobile" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
            </button>
+          <a class="nav-link " href="index.html">Logo</a>
           <div class="collapse navbar-collapse justify-content-end" id="navbarMobile">
                 <ul class="navbar-nav">
+                     <li class="nav-item"> 
+                        <a class="nav-link" href="AccountDetails.html">Account</a>
+                    </li>
                     <li class="nav-item"> 
                         <a class="nav-link" href="#">Favorites</a>
                     </li>  
+                    <li class="nav-item"> 
+                        <a class="nav-link" href="About.html">About</a>
+                    </li>
+                    <li class="nav-item"> 
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
                 </ul>
                     <button class="btn btn-outline-success mr-sm-2 my-sm-0">Login</button>
                     <button class="btn btn-outline-success mr-sm-2 my-sm-0">Sign Up</button>
           </div> 
       </nav>
-      <div class="container">
+      <div class="container mt-5">
+          <div class="jumbotron jum">
           <div class="row mt-5">
             <div class="col-md-6 col-sm-6 col-xs-12 text-center">
                 <h3>About the business</h3>  
@@ -41,11 +55,27 @@
                     <dl class="row">
                         <input type="text" class="form-control mt-5 col-md-5 col-sm-6 col-xs-12 text-center mr-auto" placeholder="First Name" aria-label="Location" aria-describedby="basic-addon1">
                         <input type="text" class="form-control mt-5 col-md-5 col-sm-6 col-xs-12 text-center" placeholder="Last Name" aria-label="Location" aria-describedby="basic-addon1">
+                        <input type="text" class="form-control mt-3 col-md-5 col-sm-6 col-xs-12 text-center mr-auto" placeholder="E-mail" aria-label="Location" aria-describedby="basic-addon1">
+                        <input type="text" class="form-control mt-3 col-md-5 col-sm-6 col-xs-12 text-center" placeholder="Phone Number" aria-label="Location" aria-describedby="basic-addon1">
                     </dl>
-                
+                <a class="btn btn-block btn-social btn-facebook" onclick="_gaq.push(['_trackEvent', 'btn-social', 'click', 'btn-md']);"><i class="fa fa-facebook"></i>Sign in with Facebook</a>
+                <a class="btn btn-block btn-social btn-google" onclick="_gaq.push(['_trackEvent', 'btn-social', 'click', 'btn-md']);"><i class="fa fa-google"></i>Sign in with Google</a>
             </div>
           </div>
+              <hr class="my-4">
+                <h3 class="text-center">Why should I become a partner?</h3>
+              <ul class="list-group text-center">
+                  <li class="list-group-item">Marketing</li>
+                  <li class="list-group-item">Reputation</li>
+                  <li class="list-group-item">Less lost appointments</li>
+                  <li class="list-group-item">Easier to organize your time</li>
+                  <li class="list-group-item">Feedback</li>
+                  <li class="list-group-item">Increase revenue</li>
+                  <li class="list-group-item">Better overview of customers</li>
+            </ul>
     </div>
+          </div>
+      
       <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
